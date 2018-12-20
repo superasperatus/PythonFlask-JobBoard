@@ -2,7 +2,7 @@ from flask import Flask, render_template, g, request, redirect, url_for
 import sqlite3
 import datetime
 
-PATH = 'db/jobs.sqlite'
+PATH = './db/jobs.sqlite' #full path required for it to work for some reason
 
 app = Flask(__name__)
 
